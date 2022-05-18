@@ -1,0 +1,14 @@
+CREATE TABLE Teacher(
+Teacher_ID INTEGER auto_increment PRIMARY KEY,
+Teacher_name VARCHAR(255),
+Teacher_last_name VARCHAR(255),
+Teacher_email VARCHAR(255),
+Teacher_password VARCHAR(50)
+);
+INSERT INTO Teacher(Teacher_name, Teacher_last_name, Teacher_email, Teacher_password)  VALUES (
+‘Charlie’, ‘Liam’, ‘charlieliam@cfg.com’, ‘CHARLIELIAM’);
+
+(‘Emma’, ‘D Souza’, ‘emmadsouza@cfg.com’, ‘EMMADSOUZA’),
+(‘Noah’, ‘Peter’, ‘noahpeter@cfg.com’, ‘NOAHPETER’),
+(‘Oliver’, ‘Clans’, ‘oliverclans@cfg.com’, ‘OLIVERCLANS’),
+(‘Elijah’, ‘Hayes’, ‘elijahhayes@cfg.com’, ‘ELIJAHHAYES’)
